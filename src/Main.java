@@ -6,11 +6,12 @@ public class Main {
     public static void main(String[] args) {
 
         while (k < indice) {
-            k = k + 1;
-            soma = soma +k;
+            k += 1;
+            soma += k;
             System.out.println(soma);
         }
+
+        System.out.println("O valor da variável SOMA é " + soma);
+
     }
-
-
 }
